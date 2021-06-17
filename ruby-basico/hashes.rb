@@ -10,3 +10,7 @@ aulas.each do |key, value|
 end
 #adicionando novo valor
 #pessoa[:nome] = "Novo nome"
+
+print "Digite seu nome"
+nome = gets.chomp
+puts "Seu nome é #{nome}"
