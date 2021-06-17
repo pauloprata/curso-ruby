@@ -18,5 +18,5 @@ puts "Sua idade é #{idade}"
 nome = "Paulo-Daniel-Prata".split("-")
 puts nome
 
-#length -1, pega sempre o ultimo item
+
 
