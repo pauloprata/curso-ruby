@@ -14,3 +14,5 @@ end
 print "Digite seu nome"
 nome = gets.chomp
 puts "Seu nome é #{nome}"
+
+#until 4

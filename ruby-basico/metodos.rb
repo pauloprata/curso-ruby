@@ -12,3 +12,8 @@ def soma_com_parametros (valor1: , valor2:)
 end
 puts "Executando a soma"
 puts soma_com_parametros(valor2:5, valor1:50)
+
+#Atribuindo um valor a uma variavel se ela estiver vázia
+variavel = nil
+variavel ||= "valor"
+puts variavel
