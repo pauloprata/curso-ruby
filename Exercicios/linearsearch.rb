@@ -9,13 +9,13 @@ def linearSearch (arr,n,x)
     end
 end
 
- arr = [ 2, 3, 4, 10, 40 ];
- x = 40;
+ arr = [ 10, 20, 80,30, 60, 50, 110, 100, 130, 170 ];
+ x = 110;
  n = arr.length;
 result = linearSearch(arr,n,x)
 result = arr.index(x)
 if result
-    puts "Element present is index #{result}"
+    puts "Element #{x} present at index #{result}"
 elsif
     puts "Elements is not present in array"
 end
