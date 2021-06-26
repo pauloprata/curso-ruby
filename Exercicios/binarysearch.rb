@@ -5,9 +5,9 @@ def binarySearch (arr,item,beginn,x)
     #se o elemento estiver presente no meio    
     elsif arr[mid] == x
             return mid
-    #Se o elemento for menor do que meio, então
+    #Se o elemento for m do que meio, então
     #só pode estar presente no subarray esquerdo
-    elsif arr[mid] > item  
+    elsif arr[mid] < item  
             return binarySearch(arr,item,beginn, mid-1,x)
          else
             return binarySearch(arr, mid + 1, item, x);
