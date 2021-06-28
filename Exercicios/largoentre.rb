@@ -18,11 +18,10 @@ def largesthreee(arr, arr_size)
         end
     end
     puts"Three largest elements are #{third} #{second} #{first}"
-    
-    arr = [12, 13, 1, 10, 34, 1]
-    n = arr.length
-   largesthreee(arr, n)
 end
   
     
     
+          arr = [12, 13, 1, 10, 34, 1]
+          n = arr.length
+          puts largesthreee(arr, n)

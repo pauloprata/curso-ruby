@@ -15,3 +15,13 @@ result = lista + lista2
 #adicionando um novo elemento ao array
 lista << 5
 puts result
+
+palavra = ["paulo","maria","samantha"]
+indice = palavra.length
+palavra.split(0, -3)
+
+until indice == 0
+  indice -= 1
+  next if indice == -1
+  print palavra[indice]
+end
