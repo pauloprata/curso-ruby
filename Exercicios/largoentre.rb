@@ -12,6 +12,7 @@ def largesthreee(arr, arr_size)
             elsif arr[i] > second 
                 third = second
                 second = arr[i]
+          
             elsif arr[i] > third 
                 third = arr[i]
             end
@@ -24,4 +25,4 @@ end
     
           arr = [12, 13, 1, 10, 34, 1]
           n = arr.length
-          puts largesthreee(arr, n)
+          largesthreee(arr, n)
