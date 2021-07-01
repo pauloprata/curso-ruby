@@ -16,7 +16,7 @@ def contChar(string)
         puts "Special characters: #{special}"
      end
 
+    end
 
-
-    string = "#GeeKs01fOr@gEEks07"
-    puts contChar(string)
+    string = "#GeeKs01fOr@gE10Eks07."
+    contChar(string)
