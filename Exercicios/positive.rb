@@ -1,15 +1,15 @@
 def reagrrange(a,size)
-  positive = 1
-  negative = 0
+  positive = 0
+  negative = 1
   
   while true 
     #varrendo o ponteiro até que o numero negativo não seja encotrado
-    while positive < size and positive a[positive] >= 0
+    while positive < size &&  a[positive] >= 0
     positive +=2
     #varrendo até para não achar numeros positive
-    while negative < size and negative a[negative] <=
+    while negative < size &&  a[negative] <=0
         negative +=2
-     if negative < size and positive < size 
+     if negative < size && positive < size 
        temp =a[positive]   
        a[positive] = a[negative]
        a[negative] = temp
@@ -18,7 +18,7 @@ def reagrrange(a,size)
      end
     end
   end
-  end
+end
 end
 
 arr =[ 1, -3, 5, 6, -3,6, 7, -4, 9, 10 ];
@@ -26,7 +26,7 @@ n = arr.length
 reagrrange(arr,n)
 
 (0..n).each do |i|
-  puts {arr[i]}
+  puts arr[i] + ""
 end
 
 

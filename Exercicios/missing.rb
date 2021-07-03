@@ -1,13 +1,14 @@
 def missingNumber(a,n)
 
-    total = (n + 1) * (n + 2) / 2
-     (0..n).each do |i|
-        total -= a[i]
-        return total
-     end
-    
+    total = 1
+     (2..n).each do |i|
+        total += i
+        total -= a[i - 2]
 end
- arr = [ 1, 2, 4, 5, 6 ];
+ return total
+
+end
+ arr = [ 1,2,3,5,8];
  n = arr.length;
-miss = missingNumber(arr, 3);
-puts(miss)
+miss = missingNumber(arr,n);
+puts "Missing number : #{miss} " 
