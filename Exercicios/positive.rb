@@ -1,4 +1,4 @@
-def reagrrange(a,size)
+def rearrange(a,size)
   positive = 0
   negative = 1
   
@@ -23,10 +23,12 @@ end
 
 arr =[ 1, -3, 5, 6, -3,6, 7, -4, 9, 10 ];
 n = arr.length
-reagrrange(arr,n)
 
 (0..n).each do |i|
-  puts arr[i] + ""
+   arr[i] 
 end
+puts rearrange(arr, n);
+
+
 
 
