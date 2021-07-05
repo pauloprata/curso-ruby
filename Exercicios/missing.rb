@@ -6,9 +6,8 @@ def missingNumber(a,n)
         total -= a[i - 2]
 end
  return total
-
 end
- arr = [ 1,2,3,5,8];
+ arr = [ 1,2,3,5,];
  n = arr.length;
 miss = missingNumber(arr,n);
 puts "Missing number : #{miss} " 
