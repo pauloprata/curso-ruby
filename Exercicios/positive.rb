@@ -26,7 +26,7 @@ arr =[ 1, -3, 5, 6, -3,6, 7, -4, 9, 10 ]
 size = arr.length
 rearrange(arr, size)
 
-for i in 0..size
+(0..size).each do |i|
   print( arr[i] ," ")
 end
 
