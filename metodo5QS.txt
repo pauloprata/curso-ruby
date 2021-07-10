@@ -1,0 +1,7 @@
+  Método 5Q´S para montar um algóritmo
+
+1-Quias são os dados de entrada necessarios?
+2-O que devo fazer com esses dados?
+3-Quis são as restrições deste problema?
+4-Qual é o resultado esperado?
+5-Qual é a sequencia de passos a ser feita para chegar ao resultado esperado?(pseudecódigo)
