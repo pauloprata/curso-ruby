@@ -26,7 +26,7 @@ end
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 n = arr.length
 k = 3
-arr = rigthRotate(arr,k,n)
+rigthRotate(arr,k,n)
 printArray(arr, n)
 
 
